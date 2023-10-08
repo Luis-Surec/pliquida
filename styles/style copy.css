@@ -1,0 +1,51 @@
+html{
+    font-size: 14px;
+
+
+}
+
+body{
+    background-size: 100%;
+    padding-inline-start:3%;
+    background-repeat: no-repeat;
+    background-image: url(/img/fondo.png)
+    
+    }
+   
+ div{
+/*margin-top: 1%;
+background-color: rgb(201, 220, 223);   
+width: 95%;
+padding-inline-start:20%;
+gap: 10%;
+color: rgb(43, 224, 37);
+align-content: center;
+*/
+    }
+
+img{
+width: 20px;
+height: 20px;
+
+}
+
+table{
+    /*
+    width: 25%;
+    height: 25%;
+    border: double 20PX;
+color: aquamarine;
+background-color: blanchedalmond;
+   */ }
+
+
+
+ul{
+    /*
+display: grid;
+display: inline-block;
+align-content: center;
+padding: 1%;
+*/
+
+}
