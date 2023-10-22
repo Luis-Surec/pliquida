@@ -62,24 +62,53 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
 
               <div class="mb-1">
-                <label for="disabledSelect" class="form-label">Permisos:</label>
-               
-                  <option><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"> Creacion de Empresas   </option>
-                  <option> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"> Creacion de cuentas bancarias </option>
-                  <option> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"> Creacion Cuentas Contables </option>
-                  <option> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"> Creacion de Referencias  </option>
-                  <option> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"> Creacion de Departamentos</option>
-                  <option> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"> Reacion de Usuarios  </option>
-                  <option> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"> Emision de Liquidciones </option>
-                  <option> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"> Autorizacion de Liquidaciones</option>
-                  <option> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"> Asignacion de Cheques</option>
-                  <option> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"> Reportes</option>
+                <label for="Select" class="form-label">Permisos:</label>
+                
+                <!--aca empieza el menu de seleccion-->
+                <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something" checked>
+                <label class="form-check-label">Empresas</label>
+                </div>
+                <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something" checked>
+                <label class="form-check-label">Cuentas Contables</label>
+                </div>
+
+                <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something" checked>
+                <label class="form-check-label">Referencias</label>
+                </div>
+
+                <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something" checked>
+                <label class="form-check-label">Departamentos</label>
+                </div>
+
+                <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something" checked>
+                <label class="form-check-label">Liquidciones</label>
+                </div>
+
+                <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something" checked>
+                <label class="form-check-label">Cheques</label>
+                </div>
+
+                <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something" checked>
+                <label class="form-check-label">Reportes</label>
+                </div>
+
+                <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something" checked>
+                <label class="form-check-label">Usuarios</label>
+                </div>
+
+
               </div>
              <div><p>
             </p></div>
-           
-              <button type="button" class="btn-default"><a href="" class="btna">Guardar Usuariop</a></button>
-                 
+            <button type="button" class="btn btn-primary" onclick="">Guardar Usuario</button>
             </fieldset>
           </form>
 </div>

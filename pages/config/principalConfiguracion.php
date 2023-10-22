@@ -35,34 +35,31 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 </head>
 <body>
   
-<!-- acá empieza el encabezado-->
+<!-- acá empieza el encabezado
 <header>
-<div class="title">  
+<div class="">  
 <?php
 include("../../script/head.php")
 ?>
 </div>
 </header>
-<!-- acá termina el encabezado-->
+acá termina el encabezado-->
 
 
 
 <!--nuevo menu-->
 <div>
-<table class="table" style="height: 25%;">
+<table class="" style="height: 25%;">
   <thead> <tr> </tr></thead>
     <tbody>
-
     <tr><th ><img src="../../img/regreso.png"></th><th><a href="../../welcome.php" >INICIO</a></th></tr>
     <tr><th ><img src="../../img/engranaje.png"></th><th>CONFIGURACIONES</a></th></tr>        
-
     <tr><th scope="row"><img src="../../img/ctaBancaria.jpg"></th><td><a href="../../pages/config/razonSocial.php">RAZON SOCIAL</a></td></tr>
     <tr><th scope="row"><img src="../../img/docIva.jpg"></th><td><a href="../../pages/config/empresas.php">EMPRESAS</a></td></tr>
     <tr><th scope="row"><img src="../../img/ctasContables.png"></th> <td><a href="../../pages/config/cuentasContables.php"> CUENTAS CONTABLES</a></td></tr>
     <tr><th scope="row"><img src="../../img/departamentos.png"></th> <td><a href="../../pages/config/departamento.php "> DEPARTAMENTOS</a></td></tr>
     <tr><th scope="row"><img src="../../img/referencias.png"></th>  <td><a href="../../page/config/referencias.php"> REFERENCIAS</a></td></tr>
     <tr><th scope="row"><img src="../../img/proveedores.jpg"></th> <td><a href="../../pages/config/proveedores.php">PROVEEDORES</a></td> </tr>
-
     </tbody>
 </table>
 </div>
@@ -71,9 +68,10 @@ include("../../script/head.php")
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
  </body>
 
- 
-<footer><?php
+ <!--nuevo menu termina
+<footer>
+  <?php
 include("../../script/footer.php")
 ?></footer>
-
+-->
 </html>

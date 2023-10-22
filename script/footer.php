@@ -25,19 +25,19 @@
   <div class="row">
 
     <div class="col-lg-5 col-xs-12 about-company">
-      <h2>Heading</h2>
-      <p class="pr-5 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac ante mollis quam tristique convallis </p>
+      <h2>Enlaces</h2>
+      <p class="pr-5 ">Kuljay (Casa de Enucentros)  Editorial SAqil Tzij</p>
       <p><a href="#"><i class="fa fa-facebook-square mr-1"></i></a><a href="#"><i class="fa fa-linkedin-square"></i></a></p>
     </div>
     
     
     <div class="col-lg-4 col-xs-8 location">
       <h4 class="mt-lg-0 mt-sm-2">Location</h4>
-      <p>22, Lorem ipsum dolor, consectetur adipiscing</p>
-      <p class="mb-0"><i class="fa fa-phone mr-3"></i>(541) 754-3010</p>
-      <p><i class="fa fa-envelope-o mr-3"></i>info@hsdf.com</p>
+      <p>Calzada Roosevelth</p>
+      <p class="mb-0"><i class="fa fa-phone mr-3"></i>(502) 25011650</p>
+
     </div>
-  
+
   </div>
       
   </div>
