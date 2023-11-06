@@ -57,7 +57,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
               </div>
 
               <div id="module-1" class="">
-             <ul><button type="button" class="btn-success"><a href="" >INGRESA PROVEEDOR</a></button></ul>
+             <ul><button type="button" class="btn-success"><a href="../../pages/config/proveedoresIngreso.php" >INGRESA PROVEEDOR</a></button></ul>
        
              <ul></ul> <button type="button" class="btn-success" ><a href="" >MOVIMIENTOS DEL PROVEEDOR</a></button></ul>
               </div>

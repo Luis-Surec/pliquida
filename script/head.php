@@ -31,13 +31,7 @@
   </div>
 
 <div>
-<button type= "btn btn-danger">  
-
-<?php
-    include("location:logout.php");
-?>
-
-</button>
+<button type="button" class="btn btn-default"> <a href="logout.php">Cerrar Session</a> </button>
 
 </div>
 

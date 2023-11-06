@@ -59,7 +59,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
           <button><img src="/img/rep_sol.jpg"></img><a class="btn-default" aria-current="page" href="/pages/rep/principalReportes.html">REPORTES</a></button>
         </li>
         <li class="nav-item">
-          <button><img src="/img/engranaje.png"></img><a class="btn-default" aria-current="page" href="/pages/config/principalConfiguracion.html">CONFIGRUACIONES</a></button>
+          <button><img src="/img/engranaje.png"></img><a class="btn-default" aria-current="page" href="/pages/config/principalConfiguracion.html">CONFIGURACIONES</a></button>
         </li>
         
         
